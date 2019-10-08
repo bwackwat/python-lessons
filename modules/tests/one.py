@@ -12,8 +12,11 @@ print(working_dir)
 
 if working_dir == "python-lessons":
     from ..models import User
+elif working_dir == "modules":
+    from models import User
 else:
     from modules.models import User
+
 
 class TestOne(unittest.TestCase):
 

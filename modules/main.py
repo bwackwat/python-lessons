@@ -1,7 +1,8 @@
 #!/bin/python
 
-import models
 import unittest
+
+import models
 import tests
 
 print("Attributes in 'models' module: " + str(dir(models)))
